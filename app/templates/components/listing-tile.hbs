@@ -1,0 +1,3 @@
+<h3>{{#link-to 'listing' listing}}{{listing.title}}{{/link-to}} <span class="author-date"> posted {{moment-from-now listing.date}} by {{listing.owner}}</span></h3>
+<button class="btn-delete pull-right" {{action 'deleteListing' listing}}><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+<br>
